@@ -1,0 +1,4 @@
+# Production Widevine build. Requires an authenticated Castlabs EVS client or a valid signature cache.
+# VMP must run before Apple code signing, so this is an afterPack hook, not afterSign.
+extends: ./build/electron-builder.yml
+afterPack: ./scripts/macos-vmp.cjs

@@ -88,6 +88,8 @@ Note that you **need** a notification library such as [libnotify](https://github
 
 Various packaged versions of the software are available on the [releases](https://github.com/Mastermindzh/tidal-hifi/releases) tab.
 
+Mac release maintainers should follow the [production Widevine signing guide](docs/macos-widevine-signing.md) before publishing packages. EVS signing is a maintainer responsibility; listeners should receive a signed app without needing their own EVS account.
+
 ### Snap
 
 To install with `snap` you need to download the pre-packaged snap-package from this repository, found under releases:
